@@ -13,6 +13,6 @@ module.exports = {
 
         const success = client.player.skip(message);
 
-        if (success) message.channel.send(`${client.emotes.success} - The current music has just been **skipped**!`);
+        if (success) message.channel.send(`${client.emotes.success} - The current song has been **skipped**!`);
     },
 };
