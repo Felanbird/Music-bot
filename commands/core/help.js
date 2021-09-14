@@ -12,7 +12,7 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help pannel' },
+                    author: { name: 'Help panel' },
                     footer: { text: 'Made by Zerio (ZerioDev/Music-bot)' },
                     fields: [
                         { name: 'Bot', value: infos },
