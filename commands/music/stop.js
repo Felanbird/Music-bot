@@ -1,6 +1,6 @@
 module.exports = {
     name: 'stop',
-    aliases: ['dc'],
+    aliases: ['dc', 'disconnect'],
     category: 'Music',
     utilisation: '{prefix}stop',
 
