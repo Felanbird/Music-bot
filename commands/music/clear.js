@@ -1,8 +1,8 @@
 module.exports = {
-    name: 'clear-queue',
-    aliases: ['cq'],
+    name: 'clear',
+    aliases: ['cq', 'clear-queue'],
     category: 'Music',
-    utilisation: '{prefix}clear-queue',
+    utilisation: '{prefix}clear',
 
     execute(client, message) {
         if (!message.member.voice.channel) return message.channel.send(`${client.emotes.error} - You're not in a voice channel!`);
