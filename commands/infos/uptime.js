@@ -5,7 +5,6 @@ module.exports = {
     utilisation: '{prefix}uptime',
 
     execute(client, message) {
-        // const uptime = Date.now() - startTime;
         let seconds = Math.floor(client.uptime / 1000);
         const hours = Math.floor(seconds / 3600);
         seconds = Math.floor(seconds % 3600);
