@@ -14,6 +14,7 @@ module.exports = {
         if (!client.player.getQueue(message).paused) return message.channel.send(`${client.emotes.error} - The music is already playing!`);
 
         const success = client.player.resume(message);
+        // needed to handle discord.js v12 bug
         client.player.resume(message)
         client.player.pause(message)
         client.player.resume(message)
